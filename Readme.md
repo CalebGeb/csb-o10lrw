@@ -8,6 +8,6 @@ Some problems that I came across in this process was figuring out the ways in wh
 
 Overall I would say that I successfully met my goals for this project and am generally happy with the outcome. There are a few things I could improve and also a few things that could be improved upon such as the implementation of midi control.
 
-[CodeSandbox]([https://codesandbox.io/s/tone-project-final-rev-1-o10lrw?file=/Readme.md](https://codesandbox.io/s/tone-project-final-rev-1-o10lrw?file=/sketch.js))
+[CodeSandbox](https://codesandbox.io/s/tone-project-final-rev-1-o10lrw?file=/Readme.md](https://codesandbox.io/s/tone-project-final-rev-1-o10lrw?file=/sketch.js))
 
 [Deployment](https://calebgeb.github.io/csb-o10lrw/)
