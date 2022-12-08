@@ -73,15 +73,6 @@ WebMidi.enable()
 
 // Function triggered when WEBMIDI.js is ready
 function onEnabled() {
-  // Display available MIDI input devices
-  if (WebMidi.inputs.length < 1) {
-    document.body.innerHTML += "No device detected.";
-  } else {
-    WebMidi.inputs.forEach((device, index) => {
-      document.body.innerHTML += `${index}: ${device.name} <br>`;
-    });
-  }
-
   const mySynth = WebMidi.inputs[0];
 
   mySynth.channels[1].addListener("noteon", (e) => {
@@ -205,7 +196,7 @@ function draw() {
     "(Click Here for Key Map)",
     "_blank"
   );
-  keyMap.position(165, 280);
+  keyMap.position(165, 260);
   fill("orange");
   rect(160, 255, 175, 30);
 
