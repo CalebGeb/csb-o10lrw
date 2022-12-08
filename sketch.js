@@ -196,7 +196,7 @@ function draw() {
     "(Click Here for Key Map)",
     "_blank"
   );
-  keyMap.position(175, 275);
+  keyMap.position(165, 260);
   fill("orange");
   rect(160, 255, 175, 30);
 
