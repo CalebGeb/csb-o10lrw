@@ -109,7 +109,7 @@ function setup() {
 
   // OSC SELECT BOX
   oscType = createSelect();
-  oscType.position(15, 155);
+  oscType.position(25, 165);
   oscType.option("sine");
   oscType.option("square");
   oscType.option("triangle");
@@ -196,7 +196,7 @@ function draw() {
     "(Click Here for Key Map)",
     "_blank"
   );
-  keyMap.position(175, 280);
+  keyMap.position(175, 275);
   fill("orange");
   rect(160, 255, 175, 30);
 
